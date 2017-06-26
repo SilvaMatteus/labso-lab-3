@@ -2,7 +2,7 @@
 #include <sys/time.h>
 #include <stdio.h>
 
-#define POW_COUNT 1000000000
+#define POW_COUNT 396967013
 
 struct timeval tv;
 struct timezone tz;
