@@ -13,7 +13,7 @@ time_t i_sec, f_sec;
 suseconds_t i_usec, f_usec;
 
 int
-main(int argc, char **argv) 
+main(int argc, char **argv)
 {
     gettimeofday(&tv, &tz);
     i_sec = tv.tv_sec;
@@ -27,8 +27,7 @@ main(int argc, char **argv)
     f_sec = tv.tv_sec;
     f_usec = tv.tv_usec;
 
-    printf("%li.%d %li.%d\n", i_sec, i_usec, f_sec, f_usec);
+    printf("%li.%li %li.%li\n", i_sec, i_usec, f_sec, f_usec);
 
     return 0;
 }
-
